@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.grid{
+    width: 60%;
+    margin: auto;
+}
+
+.row{
+    width: 100%;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+[class*="col-"]{
+    float: left;
+}
+
+/* debug */
+.dbg[class*="col-"]{
+    background-color: aqua;
+    height: 200px;
+    border: 1px solid green;
+}
+
+
+
+/****** header ******/
+
+/* nav */
