@@ -7,6 +7,8 @@
 .grid{
     width: 65%;
     margin: auto;
+    font-family: 'Inter', sans-serif;
+    padding-top: 10px;
 }
 
 .row{
@@ -34,5 +36,55 @@
 
 /****** header ******/
 
-/* nav */
+/*** nav ***/
+nav{
+    height: 50px;
+    line-height: 50px;
+}
 
+/* logo digitalocean*/
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    height: 50px;
+    line-height: 50px;
+}
+
+img{
+    width: 60%;
+    height: 60%;
+}
+
+/* menu */
+ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #2C3E65;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.right_m{
+    text-align: right;
+    
+}
+
+.textmenu, .textbtn{
+    display: inline-block;
+}
+
+
+.button{
+    border: 1px solid #1475FF;
+    border-radius: 5px;
+    color: #1475FF;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*** /nav ***/
