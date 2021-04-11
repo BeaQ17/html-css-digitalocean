@@ -199,3 +199,28 @@
 .col-offset-xs-12{
     margin-left: calc((100%/12) * 12);
 }
+
+
+
+/************************** media query ***************************/
+
+/*** smartphone ***/
+@media screen and (max-width: 767px){
+    .col-xs-n{
+        width: calc((100%/12) * n);
+    }
+}
+
+/*** tablet ***/
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .col-md-n{
+        width: calc((100%/12) * n);
+    }
+}
+
+/*** desktop ***/
+@media screen and (min-width: 992px){
+    .col-lg-n{
+        width: calc((100%/12) * n);
+    }
+}
