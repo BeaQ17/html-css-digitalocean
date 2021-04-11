@@ -14,160 +14,187 @@
 </head>
 <body>
 
-    <div class="grid">
+        
 
         <header>
-    <!-- navigation bar -->
-            <nav class="row">
-            <!-- logo img -->
-                <div class="logo col-lg-3"><img src="assets/img/logo.png" alt="DigitalOcean logo"></div>
+            <!-- navigation bar -->
+            <div class="container">    
+                <nav class="row">
+                    <!-- logo img -->
+                    <div class="logo col-lg-3">
+                        <img src="assets/img/logo.png" alt="DigitalOcean logo" id="logoimg">
+                    </div>
 
-            <!-- left menu -->
-                <div class="col-lg-5 left_m">
-                    <ul>
-                        <li><a href="#">Products<i class="fas fa-angle-down"></i></a></li>
-                        <li><a href="#">Customers</a></li>
-                        <li><a href="#">Community<i class="fas fa-angle-down"></i></a></li>
-                        <li><a href="#">Pricing</a></li>
-                    </ul>
-                </div>
-
-            <!-- right menu -->
-                <div class="col-lg-4 right_m">
-                    <div class="textmenu">
+                    <!-- left menu -->
+                    <div class="col-lg-5 left_m">
                         <ul>
-                            <li><a href="#">Docs</a></li>
-                            <li><a href="#">Support<i class="fas fa-angle-down"></i></a></li>
-                            <li><a href="#">Login</a></li>
+                            <li><a href="#">Products<i class="fas fa-angle-down"></i></a></li>
+                            <li><a href="#">Customers</a></li>
+                            <li><a href="#">Community<i class="fas fa-angle-down"></i></a></li>
+                            <li><a href="#">Pricing</a></li>
                         </ul>
                     </div>
-                    <div class="textbtn button">Sign up</div>
 
-                </div>
-               
+                    <!-- right menu -->
+                    <div class="col-lg-4 right_m">
+                        <div class="textmenu">
+                            <ul>
+                                <li><a href="#">Docs</a></li>
+                                <li><a href="#">Support<i class="fas fa-angle-down"></i></a></li>
+                                <li><a href="#">Login</a></li>
+                            </ul>
+                        </div>
+                        <div class="textbtn button">Sign up</div>
+                    </div>
+                </nav>
+            </div>    
 
-            </nav>
-
-            <!-- hero -->
-            <div class="row">
-                <div class="dbg col-lg-8 herotitle"></div>
-                <div class="dbg col-lg-4 signup"></div>
-            </div>
-
-            <!-- partners -->
-            <div class="partners grey">
-
-                <div class="row">
-                    <div class="dbg col-lg-12 title"></div>
-                </div>
-                <div class="row">
-                    <div class="dbg col-lg-2 docker"></div>
-                    <div class="dbg col-lg-2 gitlab"></div>
-                    <div class="dbg col-lg-2 slack"></div>
-                    <div class="dbg col-lg-2 hashicorp"></div>
-                    <div class="dbg col-lg-2 hashicorp2"></div>
-                    <div class="dbg col-lg-2 splunk"></div>
-                </div>
-                <div class="row">
-                    <div class="dbg col-lg-12 view"></div>
-                </div>
                 
-            </div>
+
+                <!-- hero -->
+                <div class="bghero">
+                    <div class="container">
+                        <div class="row">
+                            <div class="hero col-lg-6">
+                                <h1>The simplest cloud platform for <br> developers & teams</h1>
+                                <p>Deploy ipsum dolor sit amet consectetur, adipisicing elit. 
+                                    Similique saepe laboriosam officia repudiandae blanditiis 
+                                    consequuntur, amet quasi provident nam quidem optio quas 
+                                    distinctio in modi eum, dolor commodi iure neque possimus 
+                                    necessitatibus quae.</p>
+                            </div>
+                            <div class="getstarted col-lg-6">
+                                <h3>Deploy your app in seconds.</h3>
+                                <h3 id="blueh3">Get started now.</h3>
+                                <div class="input">Email</div>
+                                <div class="input">Password</div>
+                                <div class="blueinput">Create your account</div>
+                                <div class="google">
+                                    <img src="https://img-authors.flaticon.com/google.jpg" alt="google icon" id="googleimg">
+                                    <span id="signup_span">Sign up with google</span>
+                                </div>
+                                <p id="lorem_small">By signing up you agree to the <a href="#">Terms of service</a>.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <!-- partners -->
+                <div class="partners grey">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 centerupp">innovative businesses trust digitalocean</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-2 businesslogo"><img src="./assets/img/docker.svg" alt="docker logo"></div>
+                            <div class="col-lg-2 businesslogo"><img src="./assets/img/gitlab.svg" alt="gitlab logo"></div>
+                            <div class="col-lg-2 businesslogo"><img src="./assets/img/slack.svg" alt="slack logo"></div>
+                            <div class="col-lg-2 businesslogo"><img src="./assets/img/hashicorp.svg" alt="hashicorp logo" class="hash"></div>
+                            <div class="col-lg-2 businesslogo"><img src="./assets/img/hashicorp.svg" alt="hashicorp logo2" class="hash"></div>
+                            <div class="col-lg-2 businesslogo"><img src="./assets/img/splunk.svg" alt="splunk logo"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 view">View customer stories ></div>
+                        </div>
+                    </div>
+                    
+                </div>
 
         </header>
 
 
-        <main>
-            <!-- deploy and scale seamlessly -->
-            <div class="deploy">
-                <!-- h1 deploy and p -->
-                <div class="row">
-                    <div class="dbg col-lg-12 title"></div>
+            <main>
+                <!-- deploy and scale seamlessly -->
+                <div class="deploy">
+                    <!-- h1 deploy and p -->
+                    <div class="row">
+                        <div class="dbg col-lg-12 title"></div>
+                    </div>
+                    <!-- three columns -->
+                    <div class="row">
+                        <div class="dbg col-lg-4"></div>
+                        <div class="dbg col-lg-4"></div>
+                        <div class="dbg col-lg-4"></div>
+                    </div>
                 </div>
-                <!-- three columns -->
-                <div class="row">
+
+                <!-- designed for developers -->
+                <div class="designed grey">
+                    <!-- h1 designed and p -->
+                    <div class="row">
+                        <div class="dbg col-lg-12 title"></div>
+                    </div>
+                    <!-- gallery -->
+                    <div class="row">
+                        <div class="dbg col-lg-3 arrow_l"></div>
+                        <div class="dbg col-lg-6 gallery"></div>
+                        <div class="dbg col-lg-3 arrow_r"></div>
+                    </div>
+                </div>
+
+                <!-- the features your business needs -->
+                <div class="features">
+                    <!-- h1 features-->
+                    <div class="row">
+                        <div class="dbg col-lg-12 title"></div>
+                    </div>
+                    <!-- three column features-->
                     <div class="dbg col-lg-4"></div>
                     <div class="dbg col-lg-4"></div>
                     <div class="dbg col-lg-4"></div>
                 </div>
-            </div>
 
-            <!-- designed for developers -->
-            <div class="designed grey">
-                <!-- h1 designed and p -->
-                <div class="row">
-                    <div class="dbg col-lg-12 title"></div>
-                </div>
-                <!-- gallery -->
-                <div class="row">
-                    <div class="dbg col-lg-3 arrow_l"></div>
-                    <div class="dbg col-lg-6 gallery"></div>
-                    <div class="dbg col-lg-3 arrow_r"></div>
-                </div>
-            </div>
+                <!-- service your customers around the world -->
+                <div class="service">
+                    <div class="row">
+                        <div class="dbg col-lg-12 title"></div>
+                    </div>
+                    <div class="row">
+                        <div class="dbg col-lg-6 countries"></div>
+                        <div class="dbg col-lg-6 countries"></div>
 
-            <!-- the features your business needs -->
-            <div class="features">
-                <!-- h1 features-->
-                <div class="row">
-                    <div class="dbg col-lg-12 title"></div>
-                </div>
-                <!-- three column features-->
-                <div class="dbg col-lg-4"></div>
-                <div class="dbg col-lg-4"></div>
-                <div class="dbg col-lg-4"></div>
-            </div>
-
-            <!-- service your customers around the world -->
-            <div class="service">
-                <div class="row">
-                    <div class="dbg col-lg-12 title"></div>
-                </div>
-                <div class="row">
-                    <div class="dbg col-lg-6 countries"></div>
-                    <div class="dbg col-lg-6 countries"></div>
-
-                </div>
-            </div>
-
-            <!-- development teams love digitalocean-->
-            <div class="love">
-                <div class="row">
-                    <div class="dbg col-lg-12 title"></div>
-                </div>
-                <!-- gallery -->
-                <div class="row">
-                    <div class="dbg col-lg-3 arrow_l"></div>
-                    <div class="dbg col-lg-6 gallery"></div>
-                    <div class="dbg col-lg-3 arrow_r"></div>
-                </div>
-            </div>
-
-        </main>
-
-
-        <footer>
-
-            <!-- get started now -->
-            <div class="start">
-                <div class="row">
-                    <div class="dbg col-lg-12 title"></div>
-                </div>
-            </div>
-
-            <!-- main footer -->
-            <div class="foot">
-                <div class="row">
-                    <div class="dbg col-lg-4 social"></div>
-                    <div class="dbg col-lg-2 company"></div>
-                    <div class="dbg col-lg-2 products"></div>
-                    <div class="dbg col-lg-2 community"></div>
-                    <div class="dbg col-lg-2 support"></div>
+                    </div>
                 </div>
 
-            </div>
+                <!-- development teams love digitalocean-->
+                <div class="love">
+                    <div class="row">
+                        <div class="dbg col-lg-12 title"></div>
+                    </div>
+                    <!-- gallery -->
+                    <div class="row">
+                        <div class="dbg col-lg-3 arrow_l"></div>
+                        <div class="dbg col-lg-6 gallery"></div>
+                        <div class="dbg col-lg-3 arrow_r"></div>
+                    </div>
+                </div>
 
-        </footer>
-    </div>  
+            </main>
+
+
+            <footer>
+
+                <!-- get started now -->
+                <div class="start">
+                    <div class="row">
+                        <div class="dbg col-lg-12 title"></div>
+                    </div>
+                </div>
+
+                <!-- main footer -->
+                <div class="foot">
+                    <div class="row">
+                        <div class="dbg col-lg-4 social"></div>
+                        <div class="dbg col-lg-2 company"></div>
+                        <div class="dbg col-lg-2 products"></div>
+                        <div class="dbg col-lg-2 community"></div>
+                        <div class="dbg col-lg-2 support"></div>
+                    </div>
+
+                </div>
+
+            </footer>
+        
 </body>
 </html>
