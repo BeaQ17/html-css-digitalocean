@@ -324,11 +324,12 @@ p a{
 /* the features your business needs */
 .feature{
     padding-right: 20px;
+    margin-bottom: 50px;
 }
 
 .blue_feat{
     color: #004AFF;
-    margin-bottom: 50px;
+    text-decoration: none;
 }
 
 /* service your customers around the world */
@@ -384,3 +385,21 @@ p a{
     text-align: right;
     width: 20%;
 }
+
+/* development teams love digitalocean */
+.gallery_text{
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#rockerbox{
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+#story{
+    margin: 15px;
+}
+
