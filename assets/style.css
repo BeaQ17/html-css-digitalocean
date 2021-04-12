@@ -91,9 +91,9 @@ ul li a {
 
 
 .button{
-    border: 1px solid #1475FF;
+    border: 1px solid #004AFF;
     border-radius: 5px;
-    color: #1475FF;
+    color: #004AFF;
     width: fit-content;
     padding-left: 10px;
     padding-right: 10px;
@@ -115,11 +115,10 @@ ul li a {
 
 .hero{
     color: white;
-    margin-top: 70px;
-    margin-bottom: 15px;
     padding-right: 20px;
-    /*display: flex;
-    align-self: center;*/
+    display: flex;
+    margin-top: 60px;
+    flex-wrap: wrap;
 }
 
 h1{
@@ -140,28 +139,33 @@ p{
 }
 
 #blueh3{
-    color: #1475FF;
+    color: #004AFF;
     margin-top: 10px;
 }
 
-.input{
+.form_input{
     border-radius: 5px;
     border: 1px solid lightgray;
-    margin: 10px 15px 5px 15px;
+    width: 91%;
+    margin: auto;
+    margin-top: 10px;
     color: grey;
     text-align: left;
     padding: 10px 0px 10px 5px;
 }
 
-.blueinput{
+.form_blueinput{
     color: white;
-    background-color: #1475FF;
+    background-color: #004AFF;
     border-radius: 5px;
     text-align: center;
     font-size: 15px;
     padding-top: 7px;
     padding-bottom: 7px;
-    margin: 10px 15px 5px 15px;
+    width: 91%;
+    margin: auto;
+    margin-top: 10px;
+    
 }
 
 .google{
@@ -169,19 +173,25 @@ p{
     border-radius: 5px;
     font-size: 15px;
     padding: 7px 5px 7px 5px;
-    margin: 10px 15px 5px 15px;
     box-shadow: 1px 2px lightgray;
+    position: relative;
+    height: 36px;
+    line-height: 36px;
+    width: 91%;
+    margin: 10px auto 10px auto;
+
 }
 
 #googleimg{
-    height: 30px;
-    width: 30px;
+    height: 29px;
+    width: 29px;
     display: flex;
     justify-content: flex-start;
     margin-right: 0px;
+    position: absolute;
 }
 
-#lorem_small{
+.lorem_small{
     font-size: 12px;
 }
 
@@ -212,7 +222,7 @@ p a{
 }
 
 .view{
-    color: #1475FF;
+    color: #004AFF;
     display: flex;
     align-items: center;
     justify-content: center;
