@@ -322,3 +322,10 @@ p a{
 }
 
 /* the features your business needs */
+.feature{
+    padding-right: 20px;
+}
+
+.blue_feat{
+    color: #004AFF;
+}
