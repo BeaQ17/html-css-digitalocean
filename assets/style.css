@@ -328,4 +328,55 @@ p a{
 
 .blue_feat{
     color: #004AFF;
+    margin-bottom: 50px;
+}
+
+/* service your customers around the world */
+.service{
+    background: linear-gradient(#0047C5 0%, #001F9A 100%);
+}
+
+.serv_white{
+    color: white;
+}
+
+.serv_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.count, .count_bottom{
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.count{
+    border-bottom: 1px solid white;
+}
+
+.sigla{
+    margin-left: 10px;
+    margin-right: 35px;
+}
+
+.sigla, .places, .test{
+    display: inline-block;
+}
+
+.sigla{
+    width: 10%;
+}
+
+.places{
+    width: 55%;
+}
+
+.test{
+    color: turquoise;
+    text-align: right;
+    width: 20%;
 }
