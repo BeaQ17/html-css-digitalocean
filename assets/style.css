@@ -304,7 +304,11 @@ p a{
     width: 100%;
 }
 
-#fifty_dots{
+#fifty5{
+    text-align: center;
+}
+
+.dots{
     text-align: center;
     margin-bottom: 50px;
 }
