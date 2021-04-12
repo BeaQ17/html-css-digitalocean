@@ -348,6 +348,10 @@ p a{
     margin-bottom: 15px;
 }
 
+.countries{
+    margin-bottom: 50px;
+}
+
 .count, .count_bottom{
     padding: 5px;
     margin-left: 10px;
