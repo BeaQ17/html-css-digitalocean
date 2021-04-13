@@ -125,7 +125,6 @@ ul li a {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 450px;
 }
 
 .hero{
@@ -451,12 +450,34 @@ dd{
 }
 
 /****** media query ******/
-@media screen and (min-width: 768px) and (max-width: 991px){
+@media screen and (min-width: 768px) and (max-width: 991px){  /* tablet */
     .container{
         width: 95%;
         height: 100%;
         margin: auto;
         font-family: 'Inter', sans-serif;
+    }
+
+}
+
+@media screen and (min-width: 992px){  /* smarthpone */
+    .container{
+        width: 95%;
+        height: 100%;
+        margin: auto;
+        font-family: 'Inter', sans-serif;
+    }
+
+    .bghero{
+        background-image: url(./img/bg-banner-home.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding-bottom: 30px;
+    }
+
+    .arrow_l, .arrow_r{
+        display: none;
     }
 
 }
