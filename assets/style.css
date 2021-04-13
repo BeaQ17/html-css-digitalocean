@@ -430,6 +430,22 @@ h1{
     margin: 15px auto;
 }
 
+/* main footer */
+.foot{
+    background-color: #031C4E;
+    padding: 50px 0px 50px 0px;
+    color: white;
+}
 
+.filtered{
+    filter: opacity(60%);
+    margin-left: 5px;
+}
 
+dt, dd{
+    margin: 5px;
+}
 
+dd{
+    filter: opacity(70%);
+}
