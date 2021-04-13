@@ -449,3 +449,15 @@ dt, dd{
 dd{
     filter: opacity(70%);
 }
+
+/****** media query ******/
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .container{
+        width: 95%;
+        height: 100%;
+        margin: auto;
+        font-family: 'Inter', sans-serif;
+    }
+
+}
+
