@@ -511,6 +511,10 @@ dd{
         display: none;
     }
 
+    .getstarted{
+        margin-bottom: 30px;
+    }
+
 }
 
 @media screen and (min-width: 992px){ /* large */
