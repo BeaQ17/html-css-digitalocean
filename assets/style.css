@@ -6,7 +6,7 @@
 
 body{
     color: #2C3E65;
-    min-width: 1170px;
+    
 }
 
 .container{
@@ -480,5 +480,11 @@ dd{
         display: none;
     }
 
+}
+
+@media screen and (min-width: 992px){
+    body{
+        min-width: 1170px;
+    }
 }
 
