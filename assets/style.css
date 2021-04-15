@@ -146,6 +146,7 @@ h1{
     padding-top: 25px;
     padding-bottom: 15px;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 #blueh3{
@@ -477,6 +478,10 @@ dd{
         align-items: center;
     }
 
+    .ham_xs{
+        text-align: right;
+    }
+
     .fa-bars{
         color: #004AFF;
     }
@@ -507,7 +512,7 @@ dd{
         font-family: 'Inter', sans-serif;
     }
 
-    .fa-bars{
+    .ham{
         display: none;
     }
 
@@ -522,7 +527,7 @@ dd{
         min-width: 1170px;
     }
 
-    .fa-bars{
+    .ham{
         display: none;
     }
 }
